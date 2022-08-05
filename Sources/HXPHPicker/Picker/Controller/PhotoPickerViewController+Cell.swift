@@ -71,6 +71,7 @@ extension PhotoPickerViewController: PhotoPickerViewCellDelegate {
                 completion: { _, isSuccess in
                 if isSuccess {
                     addAsset()
+                    self.bottomView.updatePromptView()
                 }
             })
             if !inICloud {
