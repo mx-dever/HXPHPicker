@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
         end
         picker.subspec 'KF' do |kf|
             kf.dependency 'HXPHPicker/Picker/Lite'
-            kf.dependency 'Kingfisher', '~> 7.0'
+            kf.dependency 'Kingfisher', '~> 7.6.1'
         end
     end
   
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
         end
         editor.subspec 'KF' do |kf|
             kf.dependency 'HXPHPicker/Editor/Lite'
-            kf.dependency 'Kingfisher', '~> 7.0'
+            kf.dependency 'Kingfisher', '~> 7.6.1'
         end
     end
     
